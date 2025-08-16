@@ -123,7 +123,6 @@ export type OpenAIResponsesTool =
       moderation?: 'auto';
       output_format?: 'png' | 'jpeg' | 'webp';
       output_compression?: number; // 0-100
-      n?: number; // 1-4
     };
 
 export type OpenAIResponsesReasoning = {
